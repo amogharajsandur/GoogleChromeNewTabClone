@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* padding: 0.5em;
+    margin: 1em; */
+    height: 100vh;
+}
+
+.navigation-bar {
+    /* background-color: rgb(69, 69, 69); */
+    padding: 0.5em;
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* border-radius: 1em; */
+}
+    .text-box a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5em;
+    }
+
+    .text-box a:hover {
+        text-decoration: underline;
+    }
+
+    /* a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5em;
+        } */
+        
+        .icon-box {
+            display: flex;
+            flex-direction: row;
+            padding: 0.5em;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+        }
+        
+        #search-icon {
+            cursor: text;
+        }
+        
+        .icon-box:hover {
+            cursor: pointer;
+        }
+        
+        .profile-icon {
+            scale: 1.25;
+        }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.upper-centre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+            align-items: center;
+        }
+
+        .upper-centre img {
+            height: 10em;
+        }
+
+        .lower-centre {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+            .input-box {
+                display: flex;
+                flex-direction: row;
+                background-color: white;
+                border-radius: 3em;
+                padding: 0.5em;
+                margin: 1em;
+            }
+
+                .input-box form {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .input-box input {
+                    background-color: white;
+                    border: none;
+                    border-radius: 0;
+                    /* height: 3em; */
+                    width: 35em;
+                    color: black;
+                    outline: none;
+                    font-size: large;
+                    }
+
+    .footer-bar {
+        /* background-color: rgb(69, 69, 69); */
+        padding: 0.5em;
+        margin: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* border-radius: 1em; */
+        }
+
+        .footer-bar span {
+            text-decoration: underline;
+        }
